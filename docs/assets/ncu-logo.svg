@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="160" viewBox="0 0 560 160" role="img" aria-label="南昌大学 Nanchang University">
+  <defs>
+    <linearGradient id="ncuBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A5CB8"/>
+      <stop offset="100%" stop-color="#003D80"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="544" height="144" rx="18" fill="url(#ncuBlue)"/>
+  <rect x="8" y="8" width="544" height="144" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2"/>
+
+  <circle cx="98" cy="80" r="46" fill="#FFFFFF" fill-opacity="0.12"/>
+  <circle cx="98" cy="80" r="46" fill="none" stroke="#FFFFFF" stroke-opacity="0.9" stroke-width="3"/>
+  <text x="98" y="90" text-anchor="middle" fill="#FFFFFF"
+        font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="1">NCU</text>
+
+  <text x="180" y="68" fill="#FFFFFF"
+        font-family="Microsoft YaHei, SimHei, sans-serif" font-size="40" font-weight="700" letter-spacing="8">南昌大学</text>
+  <text x="182" y="98" fill="#FFFFFF" fill-opacity="0.92"
+        font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="3.5">NANCHANG UNIVERSITY</text>
+  <text x="182" y="128" fill="#CFE0F5"
+        font-family="Microsoft YaHei, SimHei, sans-serif" font-size="13" letter-spacing="4">格物致新 · 厚德泽人</text>
+</svg>

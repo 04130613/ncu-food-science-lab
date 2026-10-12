@@ -1,0 +1,123 @@
+# ==========================================================================
+#  南昌大学 · 食品科学与工程专业 · 全学期 16 周实验仓库
+#  .gitignore  （学生：张紫萱  学号：7902126155）
+#  说明：忽略系统、编辑器、虚拟环境与运行产物；数据文件按需放开
+# ==========================================================================
+
+# ------------------------------ 操作系统 ------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+# Linux
+*~
+
+# ---------------------------- 编辑器 / IDE ----------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.iml
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+# MATLAB / RStudio 工程缓存
+.Rproj.user/
+
+# ------------------------------- Python -------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+MANIFEST
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --------------------------- Jupyter Notebook --------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --------------------------- MATLAB / Octave ---------------------------
+*.asv
+*.autosave
+slprj/
+*.mexa64
+*.mexw64
+octave-workspace
+
+# -------------------------------- R ------------------------------------
+.Rhistory
+.RData
+.Ruserdata
+
+# ------------------------------ 运行日志 -------------------------------
+logs/
+*.log
+
+# --------------------------- 临时 / 缓存文件 ---------------------------
+*.tmp
+*.temp
+*.cache
+*.bak
+~$*
+*.crdownload
+*.part
+
+# --------------------- 数据与结果（默认忽略大文件） --------------------
+# 说明：为保证轻量，默认忽略原始数据与二进制结果；需要版本化时
+#       可在下方用 `!路径` 规则显式放开，或改用 Git LFS。
+data/raw/
+data/temp/
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.mat
+*.bin
+*.dat
+# 表结构数据（如需版本化请删除下面两行）
+*.csv
+*.xlsx
+*.xls
+
+# ------------------------------ 报告导出 -------------------------------
+# 若需提交报告成品，可删除对应行
+*.docx
+*.pdf
+*.pptx
+
+# ---------------------------- 密钥 / 敏感 ------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.yaml
+secrets.yml
+credentials.json
